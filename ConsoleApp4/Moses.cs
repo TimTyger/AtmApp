@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    public class Moses :Timothy
+    public class Moses : Timothy
     {
         public int age { get; set; }
         public string footBallClub { get; set; }

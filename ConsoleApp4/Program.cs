@@ -10,22 +10,29 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            
+           // List<string> value = new List<string>();
 
             Console.WriteLine("What is your name?");
             var name = Console.ReadLine();
+            //value.Add(name);
             Console.WriteLine("What is your height in cm?");
             var height = Console.ReadLine();
+            //value.Add(height);
             Console.WriteLine("What is your best food?");
             var bestFood = Console.ReadLine();
+            //value.Add(bestFood);
             Console.WriteLine("What is your age?");
             var age = Console.ReadLine();
+            //value.Add(age);
             Console.WriteLine("What football club do you support");
             var footBallClub = Console.ReadLine();
+            //value.Add(footBallClub);
             Console.WriteLine("What is your hobby?");
             var hobby = Console.ReadLine();
+            //value.Add(hobby);
             Console.WriteLine("What is your complexion?");
             var complexion = Console.ReadLine();
+            //value.Add(complexion);
 
             Arinze a = new Arinze();
             {
@@ -47,7 +54,20 @@ namespace ConsoleApp4
                 Console.Write("ERROR!!!, Stop supporting inferior clubs");
             }
 
-            Console.ReadKey();
+            //foreach (var b in value)
+            //{
+            //    Console.WriteLine(b);
+            //}
+            //Console.ReadKey();
+
+            //Array value = new Array();
+            // string[] array =  value.tim;
+            //foreach (var a in array)
+            //{
+            //    Console.WriteLine($"{a} is here");
+            //}
+            //Console.ReadKey();
+
         }
     }
 }
