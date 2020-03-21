@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arinze.cs" />
+    <Compile Include="Moses.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Timothy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
